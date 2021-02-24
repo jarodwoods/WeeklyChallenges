@@ -156,10 +156,8 @@ namespace ChallengesWithTestsMark8.Tests
         {
             // Arrange
             ChallengesSet03 challenger = new ChallengesSet03();
-
             // Act
             decimal actual = challenger.Divide(dividend, divisor);
-
             // Assert
             Assert.Equal(Math.Round(expected, 4), Math.Round(actual, 4));
         }
